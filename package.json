@@ -1,0 +1,26 @@
+{
+  "name": "your-own-vuex",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.3.1",
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vite": "^1.0.0-rc.13"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
